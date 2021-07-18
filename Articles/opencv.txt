@@ -1,0 +1,16 @@
+
+https://www.datacamp.com/community/tutorials/face-detection-python-opencv
+https://docs.opencv.org/2.4/modules/objdetect/doc/cascade_classification.html
+https://www.superdatascience.com/blogs/opencv-face-detection
+https://stackoverflow.com/questions/22249579/opencv-detectmultiscale-minneighbors-parameter
+https://www.superdatascience.com/blogs/opencv-face-recognition
+https://github.com/informramiz/opencv-face-recognition-python
+https://developers.google.com/machine-learning/crash-course/
+http://wearables.cc.gatech.edu/paper_of_week/viola01rapid.pdf
+
+Install Anaconda Navigator
+Install all modules
+run and deploy the code 
+read the documentation
+
+
