@@ -1,5 +1,4 @@
 # GreenSpace: Logging & Management System
-``` Not Final, Draft ```
 
 
 <p align = "center">
@@ -14,15 +13,14 @@ can be further labelled.
 
 ##  Table of Contents:
 
-* [Purpose of the Project](https://github.com/Hritik-rr/Logging-Management-System#table-of-contents) ```and http://www.google.fr/```
-* [Purpose of the Project](docs/Purpose.md)
-    * [Abstract] (http://www.google.fr/ "Named link title")
-* Solution with the help of application
-* User level examples
-```(Real time usage examples)```
-* Different Modules
-* Flow Diagram
-* System Architecture
+* [Purpose of the Project](#purpose) 
+    * [Abstract](#abstract)
+* [Different Modules](#modules)
+    * [Capturing and Storing Images](#capturing-and-storing-images)
+    * [Training the Recognizer](#training-the-recognizer)
+    * [Prediction](#prediction)
+* [Flow Diagram](#flow-diagram)
+* [System Architecture](#architecture-diagram)
 * [Installation Guide](#installation-guide)
 
 ## Purpose:
