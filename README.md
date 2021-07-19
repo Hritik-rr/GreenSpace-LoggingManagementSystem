@@ -14,16 +14,16 @@ can be further labelled.
 
 ##  Table of Contents:
 
-* [Purpose of the Project](https://github.com/Hritik-rr/Logging-Management-System#table-of-contents) ```and http://www.google.fr/```
-* [Purpose of the Project](docs/Purpose.md)
-    * [Abstract](http://www.google.fr/ "Named link title")
+* [Purpose of the Project] (https://github.com/Hritik-rr/Logging-Management-System#table-of-contents) ```and http://www.google.fr/```
+* [Purpose of the Project] (docs/Purpose.md)
+    * [Abstract] (http://www.google.fr/ "Named link title")
 * Solution with the help of application
 * User level examples
 ```(Real time usage examples)```
 * Different Modules
 * Flow Diagram
 * System Architecture
-* Installation Guide
+* [Installation Guide] (#installation)
 
 ## Purpose:
 In our given set of project, we proposed to make an automated Staff and Visitor logging Management system. Our system consists of a camera setup for calibrating video faces, its further abilities include pre-processing of images and extracting facial features for face recognition. The different methods within the sequence of flow of application in our project consist of:
@@ -77,6 +77,8 @@ This is where we get to see if our algorithm is recognizing our individual faces
 <img src = "https://user-images.githubusercontent.com/41600508/126078234-9987a119-b57e-4727-83bb-b7b170e8b40e.png" width = "690" height = "420" span style="display:block;text-align:center">
 </p>
 
-## Installation Guide:
-
-
+## Installation
+Requires python version 3.5 or later.
+- python3 -m venv venv . Then activate your virtual environment(OS specific). (If you don't have venv, install it) [optional]
+``` python -m pip install -r requirements.txt ```
+``` python project.py ```

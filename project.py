@@ -40,7 +40,7 @@ txt2.place(x=700, y=215)
 
 def capture():
     name = txt2.get()
-    namedir = r"D:\Development\Staff and Visitor Logging & Management System\Images" + "\\" + name
+    namedir = r"Images" + "\\" + name
     os.mkdir(namedir)
     i = 1
     video = cv2.VideoCapture(0, cv2.CAP_DSHOW)
@@ -102,13 +102,13 @@ def train():
         pickle.dump(label_ids, f)
 
     recognizer.train(x_train, np.array(y_labels))
-    recognizer.save("trainner.yml")
+    recognizer.save("trainer.yml")
 
 
 def Track():
     faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_alt2.xml")
     recognizer = cv2.face.LBPHFaceRecognizer_create()
-    recognizer.read("trainner.yml")
+    recognizer.read("trainer.yml")
     col_names = ["Id", "Name", "Date", "Time"]
     attendance = pd.DataFrame(columns=col_names)
 
