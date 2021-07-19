@@ -23,7 +23,6 @@ can be further labelled.
 * Different Modules
 * Flow Diagram
 * System Architecture
-* Project Screenshots
 * Installation Guide
 
 ## Purpose:
@@ -60,7 +59,7 @@ We are using the LBPHFaceRecognizer with is inbuilt in the Cv2 library, we are u
 This is where we get to see if our algorithm is recognizing our individual faces or not. We are implementing real time face detection and Recognition, using the same cascade classifier and the same recognizer that we used in our Training module. First loading the dumped object using pickle and de-serializing the list object for use in our script. Detecting the face(Region of Interest) of the image frame obtained from the device camera and passing this ROI as a parameter in our recognizers predict function, here we are using a confidence value that shows the lower bound of match percentage. Printing the ID corresponding to the given face.
 
          
-**Face Detection**             |  **Face Recognition**
+**Face Detection**         |  **Face Recognition**
 :-------------------------:|:-------------------------:
 <img src = "https://user-images.githubusercontent.com/41600508/126092369-72ce9a0e-70c2-4dfd-b69c-203894c3cd17.png" width = "400" height = "420">  |  <img src = "https://user-images.githubusercontent.com/41600508/126092378-f4e4312a-bd90-46ee-97a9-eddbab9c2f97.png" width = "400" height = "420">
 
@@ -78,6 +77,6 @@ This is where we get to see if our algorithm is recognizing our individual faces
 <img src = "https://user-images.githubusercontent.com/41600508/126078234-9987a119-b57e-4727-83bb-b7b170e8b40e.png" width = "690" height = "420" span style="display:block;text-align:center">
 </p>
 
-
+## Installation Guide:
 
 
